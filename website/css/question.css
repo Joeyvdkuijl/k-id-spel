@@ -1,0 +1,135 @@
+body{
+    background-image: url(../afb/Screenshot_15.png.jpg);
+    background-repeat: no-repeat;
+    width: 98%;
+    height: 100%;
+    max-height: 100%;
+}
+html{
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0DACFF;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  li , .car{
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a, .car {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 24px;
+    text-decoration: none;
+  }
+  .car{
+      height: 60px;
+      width: 100px;
+      padding: 0;
+      overflow: hidden;
+  }
+  .fa-info-circle:before {
+    font-size: 39px;
+}
+.fa-cog:before {
+    font-size: 39px;
+}
+.fa-home:before {
+    font-size: 39px;
+}
+
+.redlight{
+  margin-top: 50%;
+}
+p{
+ text-align: center;
+ font-weight: bolder;
+ font-size: 170%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+article{
+    margin-top: 40%;
+    background-color: #EEFF00;
+    padding: 8%;
+    border-radius: 25%;
+    margin-right: 2%;
+}
+.myButton {
+	background-color: #E5E5E5;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:48px;
+	font-weight:bold;
+	padding:17px 46px;
+    text-decoration:none;
+    margin-left: 20%;
+    margin-top: 50%;
+}
+.myButton:hover {
+	background-color:#E5E5E5;
+}
+.myButton:active {
+	position:relative;
+    /* top:1px; */
+}
+.myButton1 {
+	background-color: #00FF19;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:17px 36px;
+    text-decoration:none;
+    border-radius: 60%;
+    margin-left: 10px;
+}
+.myButton:hover {
+	background-color:#00FF19;
+}
+.myButton:active {
+	position:relative;
+    /* top:1px; */
+}
+
+.myButton2 {
+	background-color: #FF0000;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:17px 36px;
+    text-decoration:none;
+    border-radius: 60%;
+    margin-left: 36px;
+}
+.myButton:hover {
+	background-color:#FF0000;
+}
+.myButton:active {
+	position:relative;
+    /* top:1px; */
+}
+.fa-sign-out-alt:before {
+    font-size: 39px;
+}
